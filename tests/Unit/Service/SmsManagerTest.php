@@ -32,12 +32,6 @@ class SmsManagerTest extends TestCase
         );
     }
 
-    private function getDateTimeNow(): ?\DateTimeImmutable
-    {
-        return \DateTimeImmutable::createFromFormat('Y-m-d H:i:s', date('Y-m-d H:i:s')) ?: null;
-    }
-
-
     public function testSendSentToNotFoundException(): void
     {
         $this->expectExceptionMessage('Declare receiver.');
