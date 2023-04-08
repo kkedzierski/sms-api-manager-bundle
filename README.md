@@ -1,4 +1,4 @@
-SmsApiManagerBundle for [smsapi](https://www.smsapi.pl/) usage
+Synfony SmsApiManagerBundle for [smsapi](https://www.smsapi.pl/) usage
 ============
 ---
 Installation
