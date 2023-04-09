@@ -49,7 +49,7 @@
             />
         </service>
         <service
-                id="SmsApi\SmsApiManager\Service\SmsApiManagerInterface"
+                id="SmsApi\SmsApiManager\Service\SmsManagerInterface"
                 alias="sms_api.sms_api_manager"
                 public="true"
         />
